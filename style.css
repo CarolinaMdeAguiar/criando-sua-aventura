@@ -1,0 +1,59 @@
+body {
+    background-color: #fef0d3;
+    color: #080409;
+    font-family: "Patrick Hand", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    font-size: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('https://i.pinimg.com/736x/ac/4b/eb/ac4beb2d0e35022dafd5e3f0b5153213.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0 !important;
+    content: '';
+    position: absolute;
+    ;
+    z-index: 999;
+    width: 100%;
+    pointer-events: auto !important;
+    background-size: 1920px 1000px !important;
+}
+
+button {
+    background-color: #99afd3;
+    color: #080409;
+    font-family: "Patrick Hand", cursive;
+    font-size: 45px;
+    border-radius: 60px 60px;
+    text-align: center;
+
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    max-width: 90%;
+    max-height: 60%;
+    border-radius: 60px 60px;
+    text-align: center;
+    pointer-events: auto !important;
+    background-size: 100% !important;
+    opacity: 0.90 !important;
+    background-position: 0 0 !important;
+    background-image: url('https://i.pinimg.com/736x/14/20/15/142015ad2923355ce1b22336275f30fd.jpg');
+    content: '';
+    position: absolute;
+    ;
+    z-index: 999;
+    width: 100%;
+    background-repeat: no-repeat;
+}
